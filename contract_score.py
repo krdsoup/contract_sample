@@ -6,7 +6,7 @@ from os.path import dirname
 import logging
 
 from loopchain.blockchain import ScoreBase
-from loopchain.tools import ScoreDatabaseType, ScoreHelper
+from loopchain.tools.score_helper import ScoreDatabaseType, ScoreHelper
 
 # 
 class UserScore(ScoreBase):
